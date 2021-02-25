@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Drive_FilePicker_FilePickerUpload">アップロード</string>
+    <string name="Drive_FilePicker_FilePickerUploadFileTitle">ファイル</string>
+    <string name="Drive_FilePicker_FilesPlural">{{select_count}}項目</string>
+    <string name="Drive_FilePicker_FilesSinglular">{{select_count}}項目</string>
+    <string name="Drive_FilePicker_Cancel">キャンセル</string>
+    <string name="Drive_FilePicker_SelectAll">すべてを選択</string>
+    <string name="Drive_FilePicker_EmptyFolder">空のフォルダー</string>
+    <string name="Drive_FilePicker_MobilePhone">携帯電話</string>
+    <string name="Drive_FilePicker_Send">送信</string>
+    <string name="Drive_FilePicker_ExternalStorageRemoved">外付けメモリが抜き取られました</string>
+
+    <string name="Drive_FilePicker_OpenFail">ファイルを開くことができません</string>
+    <string name="Drive_FilePicker_OpenNoApp">開けるアプリがありません</string>
+</resources>

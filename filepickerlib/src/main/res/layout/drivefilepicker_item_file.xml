@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/drivefilepicker_item_click_selector"
+    android:layout_width="match_parent"
+    android:layout_height="68dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/selected_icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/drivefilepicker_check_box_selector"
+            android:button="@null" />
+
+        <ImageView
+            android:id="@+id/navigation_view_item_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@null" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/navigation_view_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:textColor="@color/space_kit_n900"
+                android:textSize="17sp"
+                tools:text="Drive Mobile-晨会纪要-晨会纪要-晨会纪要.mp3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/navigation_view_item_name"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/navigation_view_item_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/space_kit_n600"
+                    android:textSize="14sp"
+                    tools:text="07-24" />
+
+                <TextView
+                    android:id="@+id/navigation_view_item_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/space_kit_n600"
+                    android:textSize="14sp"
+                    tools:text="50.3M" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="76dp"
+        android:background="@color/space_kit_n300"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

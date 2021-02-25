@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="44dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_folder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textSize="15sp"
+        tools:text="内部存储" />
+
+    <ImageView
+        android:id="@+id/image_next"
+        android:src="@drawable/ic_icon_drive_breadcrumbnavigation_arrow_nor"
+        android:layout_gravity="center_vertical"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+
+</LinearLayout>

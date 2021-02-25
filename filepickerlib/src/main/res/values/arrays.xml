@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="filetime_format_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- General - Disk usage warning level -->
+    <string-array name="disk_usage_warning_level_labels" translatable="false">
+        <item>75%</item>
+        <item>90%</item>
+        <item>95%</item>
+        <item>98%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="disk_usage_warning_level_values" translatable="false">
+        <item>75</item>
+        <item>90</item>
+        <item>95</item>
+        <item>98</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="access_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="sort_search_results_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

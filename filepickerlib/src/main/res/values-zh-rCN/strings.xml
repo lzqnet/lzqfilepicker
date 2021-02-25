@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Drive_FilePicker_FilePickerUploadFileTitle">上传文件</string>
+    <string name="Drive_FilePicker_FilePickerUpload">上传</string>
+    <string name="Drive_FilePicker_FilesPlural">已选：{{select_count}}个文件</string>
+    <string name="Drive_FilePicker_FilesSinglular">已选：{{select_count}}个文件</string>
+    <string name="Drive_FilePicker_Cancel">取消</string>
+    <string name="Drive_FilePicker_SelectAll">全选</string>
+    <string name="Drive_FilePicker_EmptyFolder">空文件夹</string>
+    <string name="Drive_FilePicker_MobilePhone">手机</string>
+    <string name="Drive_FilePicker_ExternalStorageRemoved">外接存储已拔出</string>
+    <string name="Drive_FilePicker_Send">发送</string>
+
+    <string name="Drive_FilePicker_OpenFail">文件无法打开</string>
+    <string name="Drive_FilePicker_OpenNoApp">没有可供打开的应用</string>
+</resources>

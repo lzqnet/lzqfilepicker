@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+
+    <!-- External storage descripton -->
+    <string name="external_storage">External storage</string>
+    <!-- Usb storage descripton -->
+    <string name="usb_storage">USB storage</string>
+
+    <string name="Drive_FilePicker_FilePickerUpload">Upload</string>
+    <string name="Drive_FilePicker_FilePickerUploadFileTitle">Upload Files</string>
+    <string name="Drive_FilePicker_FilesPlural">Selected: {{select_count}} files</string>
+    <string name="Drive_FilePicker_FilesSinglular">Selected: {{select_count}} file</string>
+    <string name="Drive_FilePicker_Cancel">Cancel</string>
+    <string name="Drive_FilePicker_SelectAll">Select all</string>
+    <string name="Drive_FilePicker_EmptyFolder">Empty folder</string>
+    <string name="Drive_FilePicker_MobilePhone">Mobile phone</string>
+    <string name="Drive_FilePicker_ExternalStorageRemoved">External storage is removed</string>
+    <string name="Drive_FilePicker_Send">Send</string>
+
+
+    <string name="Drive_FilePicker_OpenFail">Unable to open file</string>
+    <string name="Drive_FilePicker_OpenNoApp">File type not supported</string>
+</resources>

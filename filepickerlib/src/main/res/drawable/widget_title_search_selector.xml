@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <bitmap
+            android:src="@drawable/widget_searchbar_search_icon"
+            android:alpha="0.5">
+        </bitmap>
+    </item>
+    <item android:state_pressed="false" android:drawable="@drawable/widget_searchbar_search_icon"/>
+
+</selector>
